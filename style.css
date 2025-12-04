@@ -1,0 +1,121 @@
+/* ===== RESET ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background: #dcdcdc;
+  }
+  
+  /* ===== NAVBAR ===== */
+  .navbar-custom {
+    background: white;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+    box-shadow: 0 2px 10px rgba(254, 254, 254, 0.1);
+  }
+  
+  .navbar-custom a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    margin-left: 20px;
+  }
+  
+  /* ===== HERO ===== */
+  .hero {
+    min-height: 100vh;
+    margin: 100px 30px 30px 30px;
+    border-radius: 30px;
+    background:
+      linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+      url("image/img2.jpg"); /* GANTI GAMBAR DI SINI */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 60px;
+  }
+  
+  .hero-content {
+    max-width: 600px;
+  }
+  
+  .hero-badge {
+    background: rgba(255,255,255,0.2);
+    padding: 7px 16px;
+    border-radius: 25px;
+    font-size: 13px;
+    display: inline-block;
+    margin-bottom: 15px;
+  }
+  
+  .hero h1 {
+    font-size: 52px;
+    font-weight: 800;
+  }
+  
+  .hero p {
+    font-size: 16px;
+    opacity: 0.9;
+  }
+  
+  .price-box h2 {
+    font-size: 42px;
+  }
+  
+  /* ===== ABOUT - HIJAU TUA ===== */
+  #about {
+    background: #0f3d2e;
+    padding: 100px 20px;
+  }
+  
+  .about-box {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  }
+  
+  /* ===== CONTACT - HIJAU TUA ===== */
+  #contact {
+    background: #0f3d2e;
+    padding: 100px 20px;
+  }
+  
+  .contact-form {
+    max-width: 500px;
+  }
+  
+  /* ===== FOOTER ===== */
+  footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  /* ===== ANIMASI ABOUT ===== */
+  .fade-item {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: 0.6s ease;
+  }
+  
+  .fade-item.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
